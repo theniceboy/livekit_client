@@ -146,9 +146,9 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: HEAD
-      resolved-ref: f27d27c7af41ceeebe31b295af4fb38e7b4d793e
-      url: "https://github.com/zhuhaichao518/dart-webrtc"
+      ref: a6a18675e48fc7d6b89aa798a18283add17a6b60
+      resolved-ref: a6a18675e48fc7d6b89aa798a18283add17a6b60
+      url: "https://github.com/jezell/dart-webrtc"
     source: git
     version: "1.4.9"
   dbus:
@@ -226,8 +226,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: HEAD
-      resolved-ref: a6c66d753421abe0dcaf9ff71065f5dbbcfad9d8
+      ref: "55a2974093366812f5151cb051e203c4d1e6e70f"
+      resolved-ref: "55a2974093366812f5151cb051e203c4d1e6e70f"
       url: "https://github.com/theniceboy/flutter-webrtc"
     source: git
     version: "0.12.1+hotfix.1"
