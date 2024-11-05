@@ -25,10 +25,11 @@ class LiveKitClient {
   /// initialized with default settings.
   /// This method must be called before calling any LiveKit SDK API.
   static Future<void> initialize({bool bypassVoiceProcessing = false}) async {
+    // tmp
+    // tmp
     if (lkPlatformIsMobile()) {
       await rtc.WebRTC.initialize(options: {
-        if (bypassVoiceProcessing)
-          'bypassVoiceProcessing': bypassVoiceProcessing,
+        if (bypassVoiceProcessing) 'bypassVoiceProcessing': bypassVoiceProcessing,
       });
     }
   }
